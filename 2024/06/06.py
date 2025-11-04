@@ -128,8 +128,8 @@ def partTwo(data):
 
 def main():
     data = readData()
-    print('Part One: ' + str(countX(partOne(data.copy()))))
-    print('Part Two: ' + str(partTwo(data)))
+    print('Part One: ', countX(partOne(data.copy())))
+    print('Part Two: ', partTwo(data))
     return 0
 
 if __name__ == "__main__":
